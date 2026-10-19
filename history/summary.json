@@ -70,5 +70,23 @@
     "timeMonth": 412,
     "timeYear": 412,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "알림시험(삭제 예정)",
+    "url": "https://dkansim.com/__upptime-alert-test-1019",
+    "icon": "https://icons.duckduckgo.com/ip3/dkansim.com.ico",
+    "slug": "알림시험(삭제-예정)",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 486,
+    "timeDay": 486,
+    "timeWeek": 486,
+    "timeMonth": 486,
+    "timeYear": 486,
+    "dailyMinutesDown": {}
   }
 ]
