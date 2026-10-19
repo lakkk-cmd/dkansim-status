@@ -1,31 +1,20 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# 대경이엔피 접속 감시(2026-10-19 마인 설정). 5분마다 확인, 내려가면 이슈가 열리고 대표님 깃허브 메일로 알림.
+owner: lakkk-cmd
+repo: dkansim-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: 홈페이지(dkansim.com)
+    url: https://dkansim.com/home
+    maxResponseTime: 8000
+  - name: 예약(book)
+    url: https://dkansim.com/book
+    maxResponseTime: 8000
+  - name: 세대전기점검 앱(inspect)
+    url: https://inspect.dkansim.com/login
+    maxResponseTime: 8000
+  - name: HQ(hq)
+    url: https://hq.dkansim.com/login
+    maxResponseTime: 8000
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - lakkk-cmd
