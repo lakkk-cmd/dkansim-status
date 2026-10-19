@@ -15,10 +15,6 @@ sites:
   - name: HQ(hq)
     url: https://hq.dkansim.com/login
     maxResponseTime: 8000
-  - name: 알림시험(삭제 예정)
-    url: https://dkansim.com/__upptime-alert-test-1019
-    expectedStatusCodes:
-      - 200
 
 assignees:
   - lakkk-cmd
